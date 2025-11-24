@@ -1,0 +1,24 @@
+# ==============================
+# Default ctags configuration
+# ==============================
+
+--recurse=yes
+--sort=yes
+--tag-relative=yes
+
+--languages=C,C++,Make,Python,Yaml,Cmake
+
+--exclude=.git
+--exclude=.vscode
+--exclude=.vscode-server
+--exclude=node_modules
+--exclude=plugged
+--exclude=plugin
+--exclude=autoload
+--exclude=build
+--exclude=dist
+--exclude=out
+--exclude=__pycache__
+--exclude=*.min.js
+--exclude=*.json
+--exclude=*.md
