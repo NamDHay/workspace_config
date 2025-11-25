@@ -9,7 +9,8 @@ set autoindent
 set smartindent
 set cindent
 
-set foldmethod=syntax
+set foldmethod=indent
+set foldlevel=99
 
 set smarttab
 

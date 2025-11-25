@@ -1,2 +1,5 @@
-set path+=~/ws/mfg_diag/u-boot
-set path+=~/ws/barcli
+set path+=/usr/include
+set path+=**
+
+set tags=$HOME/.vim/tags
+set tags+=$HOME/ws/barcli/tags
